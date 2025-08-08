@@ -75,6 +75,17 @@ test('Não deve cadastrar com CPF inválido', async ({ page }) => {
    await expect(signup.alertError()).toContainText('CPF inválido')
 })
 
+// Erro ao deixar o campo CPF vazio
+test('Não deve cadastrar quando o campo CPF estiver vazio', async ({ page }) => {
+   const signup = signupPage(page)
+   
+   await signup.open()
+   await signup.submit({...walker, cpf: ''}) // Usando os '...' estamos espalhamento de objetos dentro das {}
+
+   // Validando que exibiu a mensagem de erro abaixo do campo CPF
+   await expect(signup.alertError()).toContainText('Informe o seu CPF')
+})
+
 // Erro ao deixar o campo CEP vazio
 test('Não deve cadastrar com o campo CEP vazio', async ({ page }) => {
    const signup = signupPage(page)
