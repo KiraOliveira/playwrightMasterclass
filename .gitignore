@@ -6,4 +6,4 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /e2e/example.spec.js
-tests-examples
+/tests-examples/
