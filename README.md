@@ -44,5 +44,4 @@ npx playwright show-report (Relatório)
 
 ## Execução dos testes
 
-<img width="985" height="675" alt="result" src="https://github.com/user-attachments/assets/38e4a56e-bbf6-4ce4-bbfb-a4e0fb2f5a7e" />
-
+<img width="987" height="732" alt="result" src="https://github.com/user-attachments/assets/e23c94dc-2353-42f7-b12c-1b113681ff57" />
