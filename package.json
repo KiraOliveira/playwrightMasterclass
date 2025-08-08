@@ -1,0 +1,22 @@
+{
+  "name": "playwrightmasterclass",
+  "version": "1.0.0",
+  "description": "Masterclass realizada no dia 07/08 - Framework usado Playwright",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiraOliveira/playwrightMasterclass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KiraOliveira/playwrightMasterclass/issues"
+  },
+  "homepage": "https://github.com/KiraOliveira/playwrightMasterclass#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.0"
+  }
+}
